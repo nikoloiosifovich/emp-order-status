@@ -1,0 +1,42 @@
+{
+  "021": {
+    "cliente": "antenor",
+    "telefone": "82996080000",
+    "descricao": "bomba dancor 3cv 380v",
+    "orcamento": "rebobinamento, troca dos rolamentos, capacitor e pintura",
+    "valor": 460.00,
+    "status": "processo"
+  },
+  "112": {
+    "cliente": "monica",
+    "telefone": "82996080001",
+    "descricao": "ventilador arno 40 cm",
+    "orcamento": "revisao, bucha e capacitor",
+    "valor": 55.00,
+    "status": "pronto"
+  },
+  "053": {
+    "cliente": "isis",
+    "telefone": "82996080002",
+    "descricao": "bomba autoaspirante 1cv 220v",
+    "orcamento": "revisao e troca dos rolamentos",
+    "valor": 85.00,
+    "status": "processo"
+  },
+  "154": {
+    "cliente": "matheus",
+    "telefone": "82996080003",
+    "descricao": "motor de portão eletrico",
+    "orcamento": "rebobinamento",
+    "valor": 180.00,
+    "status": "pronto"
+  },
+  "088": {
+    "cliente": "thiago",
+    "telefone": "82996080004",
+    "descricao": "bomba jacuzzi 1.5cv 220v",
+    "orcamento": "rebobinamento, troca dos rolamentos, capacitor e pintura",
+    "valor": 580.00,
+    "status": "processo"
+  }
+}

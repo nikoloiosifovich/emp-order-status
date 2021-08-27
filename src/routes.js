@@ -2,6 +2,8 @@ const router = require('express').Router()
 
 require('dotenv').config()
 
+const database = require('./database/ordersData.json')
+
 function checkAValidUserToken(req, res, next) {
   const {usertoken} = req.headers
 
@@ -15,9 +17,7 @@ function checkAValidUserToken(req, res, next) {
 }
 
 router.get('/', checkAValidUserToken, (req, res) => {
-  return res.json({
-    message: 'Done!'
-  })
+  return res.json(database)
 })
 
 
