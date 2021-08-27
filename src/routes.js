@@ -20,5 +20,10 @@ router.get('/', checkAValidUserToken, (req, res) => {
   return res.json(database)
 })
 
+router.get('/:id', checkAValidUserToken, (req, res) => {
+  const {id} = req.params
+
+  return res.json(database[id])
+})
 
 module.exports = router
