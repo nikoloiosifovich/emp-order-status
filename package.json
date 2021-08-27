@@ -4,7 +4,8 @@
   "description": "API que retorna o status das ordens de serviço na Eletro Motores Pajuçara.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/nikoloiosifovich/emp-order-status/issues"
   },
-  "homepage": "https://github.com/nikoloiosifovich/emp-order-status#readme"
+  "homepage": "https://github.com/nikoloiosifovich/emp-order-status#readme",
+  "devDependencies": {
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
+    "husky": "7.0.2"
+  }
 }
