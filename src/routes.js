@@ -23,6 +23,10 @@ function checkAValidUserToken(req, res, next) {
 router.get('/:id', checkAValidUserToken, (req, res) => {
   const {id} = req.params
 
+  if(!(id in database)){
+    return res.status(404).send()
+  }
+
   return res.json(database[id])
 })
 
