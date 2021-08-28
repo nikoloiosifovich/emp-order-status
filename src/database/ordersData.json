@@ -1,5 +1,5 @@
 {
-  "021": {
+  "21": {
     "cliente": "antenor",
     "telefone": "82996080000",
     "descricao": "bomba dancor 3cv 380v",
@@ -15,7 +15,7 @@
     "valor": 55.00,
     "status": "pronto"
   },
-  "053": {
+  "53": {
     "cliente": "isis",
     "telefone": "82996080002",
     "descricao": "bomba autoaspirante 1cv 220v",
@@ -31,7 +31,7 @@
     "valor": 180.00,
     "status": "pronto"
   },
-  "088": {
+  "88": {
     "cliente": "thiago",
     "telefone": "82996080004",
     "descricao": "bomba jacuzzi 1.5cv 220v",
