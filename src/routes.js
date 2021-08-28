@@ -16,9 +16,9 @@ function checkAValidUserToken(req, res, next) {
   return next()
 }
 
-router.get('/', checkAValidUserToken, (req, res) => {
-  return res.json(database)
-})
+// router.get('/', checkAValidUserToken, (req, res) => {
+//   return res.json(database)
+// })
 
 router.get('/:id', checkAValidUserToken, (req, res) => {
   const {id} = req.params
